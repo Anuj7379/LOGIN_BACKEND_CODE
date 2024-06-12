@@ -5,7 +5,7 @@
 
 // const databaseConnect = async () => {
 //     try {
-//         await mongoose.connect('mongodb+srv://dark9soul88:YwEmhXQuSCklYrh5@cluster0.21qbebn.mongodb.net/logindata', {
+//         await mongoose.connect('database link ', {
 //             useNewUrlParser: true,
 //             useUnifiedTopology: true
 //         });
@@ -19,7 +19,6 @@
 // module.exports = databaseConnect;
 
  
-// //YwEmhXQuSCklYrh5
 
 require('dotenv').config();
 const mongoose = require("mongoose");
